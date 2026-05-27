@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<title>AI RAG Assistant</title>
+
+<link rel="stylesheet" href="/static/style.css">
+
+</head>
+
+<body>
+
+<div class="sidebar">
+
+<h2>AI RAG</h2>
+
+<input type="file" id="fileUpload" multiple>
+
+<button onclick="upload()">Upload</button>
+
+<button onclick="summary()">Summarize</button>
+
+</div>
+
+
+<div class="main">
+
+<div id="chatbox"></div>
+
+
+<div class="inputArea">
+
+<input id="question" placeholder="Ask anything about your documents...">
+
+<button onclick="ask()">Send</button>
+
+</div>
+
+</div>
+
+<script src="/static/script.js"></script>
+
+</body>
+
+</html>
